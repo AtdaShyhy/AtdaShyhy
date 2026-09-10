@@ -652,7 +652,7 @@ export default function App() {
         </div>
 
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bil, Allah Tagala saňa rehim etsin, bize dört zady öwrenmek wajypdyr: <button onClick={() => setPopup({ id: 'wajyp' })} style={{ background: 'none', border: '1.5px solid #d4af7a', borderRadius: '6px', color: '#d4af7a', fontSize: '0.65rem', fontWeight: '700', cursor: 'pointer', padding: '2px 5px', lineHeight: 1.2, verticalAlign: 'middle' }}>aç</button></p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bilgin — Allah saňa rehmet etsin — bize dört meseläni öwrenmek wajypdyr: <button onClick={() => setPopup({ id: 'wajyp' })} style={{ background: 'none', border: '1.5px solid #d4af7a', borderRadius: '6px', color: '#d4af7a', fontSize: '0.65rem', fontWeight: '700', cursor: 'pointer', padding: '2px 5px', lineHeight: 1.2, verticalAlign: 'middle' }}>aç</button></p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', margin: '0 0 0.8rem' }}>
             {['Ylym, ýagny: Allahy tanamak, Onuň Pygamberini tanamak we Yslam dinini deliller bilen tanamak.', 'Şol ylma görä amal etmek.', 'Şol ylma çagyrmak.', 'Bu ýolda duş gelýän ezýetlere we kynçylyklara sabyr etmek.'].map((item, i) => (
               <div key={i} style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.45rem 0.5rem' }}>
@@ -710,7 +710,7 @@ export default function App() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
 
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: 0 }}>Bilgin, Allah Tagala saňa rehmet etsin: her bir musulman erkege we aýala şu üç meseläni öwrenmek hem-de olara amal etmek wajypdyr:</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: 0 }}>Bilgin — Allah Tagala saňa rehmet etsin — her bir musulman erkege we aýala şu üç zady öwrenmek hem-de olara amal etmek wajypdyr:</p>
         </div>
 
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>

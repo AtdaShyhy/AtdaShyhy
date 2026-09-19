@@ -602,6 +602,46 @@ export default function App() {
           <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '400', margin: 0, fontFamily: 'Amiri, serif', lineHeight: '1.6', textAlign: 'center' }}>الأُصُولُ الثَّلَاثَةُ وَأَدِلَّتُهَا</p>
           <p style={{ color: '#c9b991', fontSize: '0.85rem', margin: 0, lineHeight: '1.4', textAlign: 'center' }}>Üç esas we olaryň delilleri</p>
         </div>
+        <div onClick={() => navigateTo('kitab-pygamber')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1.1rem', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '130px', textAlign: 'center', gap: '0.5rem' }}>
+          <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '400', margin: 0, fontFamily: 'Amiri, serif', lineHeight: '1.6', textAlign: 'center' }}>نبذة موجزة عن رسول الإسلام محمد صلى الله عليه وسلم</p>
+          <p style={{ color: '#c9b991', fontSize: '0.85rem', margin: 0, lineHeight: '1.4', textAlign: 'center' }}>Pygamberimiz Muhammed ﷺ barada gysgaça ömrübeýany</p>
+        </div>
+      </div>
+    </div>
+  );
+
+  const PygamberLevel = () => (
+    <div className="level-container">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
+        <div onClick={() => navigateTo('kitab-pygamber-1')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '0.9rem 1.1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.9rem' }}>
+          <div style={{ minWidth: '28px', height: '28px', background: 'linear-gradient(135deg, #8b5a2b 0%, #5e3a1a 100%)', color: '#f4e4c1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem', fontWeight: '700', flexShrink: 0 }}>1</div>
+          <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Birinji bölüm</p>
+          <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
+        </div>
+      </div>
+    </div>
+  );
+
+  const PygamberBolum1Level = () => (
+    <div className="level-container">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
+
+        <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
+          <p style={{ color: '#f4e4c1', fontSize: '1.1rem', fontWeight: '400', margin: '0 0 0.5rem', fontFamily: 'Amiri, serif', textAlign: 'center', lineHeight: '1.6' }}>نبذة موجزة عن رسول الإسلام محمد صلى الله عليه وسلم</p>
+          <p style={{ color: '#f4e4c1', fontSize: '0.95rem', fontWeight: '700', margin: '0 0 0.8rem', textAlign: 'center', lineHeight: '1.6' }}>Yslam dini bilen iberilen resul Muhammed ﷺ»</p>
+          <p style={{ color: '#d4af7a', fontSize: '0.88rem', fontWeight: '600', margin: '0 0 0.8rem', textAlign: 'center', lineHeight: '1.6' }}>Mesjidi-Haram we Mesjidi-Nebewidäki Dini işler edarasynyň Ylmy komiteti</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', fontStyle: 'italic', margin: '0 0 0.6rem', textAlign: 'center', lineHeight: '1.7' }}>Rahman we Rahim bolan Allahyň ady bilen.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0' }}>Yslam dini bilen iberilen Pygamberimiz Muhammed ﷺ barada gysgaça beýan. Onda men Onuň adyny, neslini, doglan şäherini, öýlenişini, dinini, nämä çagyrandygyny, pygamberlik alamatlaryny, şerigatyny we duşmanlarynyň Oňa garşy bolan gatnaşygyny beýan edýärin.</p>
+        </div>
+
+        <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
+          <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>1- Onuň ady, nesli we doglup kemala gelen ýeri</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Yslam dini bilen iberilen resul — Muhammed ibn Abdullah ibn Abdulmuttalyb ibn Häşimdir, Ol (Häşim bolsa) Ysmaýyl ibn Ybrahymyň neslindendir, olara salam bolsun.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bu bolsa şeýledir: Allahyň pygamberi Ybrahym aleýhissalam Şamdan Mekgä geldi. Onuň ýanynda aýaly Hajar we entek sallançakdaky ogly Ysmaýyl bardy. Ol (Ybrahym) olary Beýik Allah Tagalanyň buýrugy bilen Mekgede ýerleşdirdi. Oglan ulalyp kemala geleninde bolsa, Ybrahym pygamber aleýhissalam Mekgä geldi we ogly Ysmaýyl aleýhimesselam bilen bilelikde Mukaddes bolan Käbäni gurdy. Şondan soň käbäniň töwereginde adamlar köpeldi we Mekge älemleriň Rebbi bolan Allaha ybadat edýänleriň hem-de haj parzyny berjaý etmek isleýänleriň gelýän mekanyna öwrüldi. Adamlar bolsa ençeme asyrlar boýy Ybrahym aleýhissalamyň dini esasynda Allaha ybadat etmegi we Ony birlemegi dowam etdirdiler.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Şondan soňra bolsa (dogry ýoldan) azaşma ýüze çykdy we Arap ýurdunyň ýagdaýy hem edil başga ýurtlaryň ýagdaýy ýaly bolup galdy. Onda butparazlyk işleri açyk-aýdyň ýaýrady: butlara ybadat etmek, gyz çagalary diri gömmek, aýallara zulüm etmek, ýalan sözlemek (ýalan şaýatlyk etmek), arak-şerap içmek, ahlaksyz (bozuk) işleri etmek, ýetimiň malyny iýmek we süýthorlyk etmek ýaly...</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0' }}>Hut şu ýerde we şu jemgyýetde, 571-nji ýylda Ybrahymyň ogly Ysmaýylyň neslinden bolan Yslam dini bilen iberilen resul Muhammed ibn Abdullah, olara salam bolsun, dünýä indi. Kakasy ol heniz dünýä inmezinden öň, ejesi bolsa ol alty ýaşyndaka aradan çykdy. Ony kakasynyň dogany Ebu Talyp öz howandarlygyna aldy. Ol ýetim hem-de garyp bolup ýaşady we öz el zähmeti bilen gazanç edip iýip-içýärdi.</p>
+        </div>
+
       </div>
     </div>
   );
@@ -1713,6 +1753,8 @@ export default function App() {
       {currentLevel === 'kitab-uch-esas-4' && <UchEsasBolum4Level />}
       {currentLevel === 'kitab-uch-esas-5' && <UchEsasBolum5Level />}
       {currentLevel === 'kitab-uch-esas-6' && <UchEsasBolum6Level />}
+      {currentLevel === 'kitab-pygamber' && <PygamberLevel />}
+      {currentLevel === 'kitab-pygamber-1' && <PygamberBolum1Level />}
 
       {popup && (
         <div onClick={() => setPopup(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)', zIndex: 2000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>

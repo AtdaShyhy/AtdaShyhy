@@ -2169,7 +2169,7 @@ export default function App() {
             )}
             {popup.id === 'meydan-okamak' && (
               <div style={{ paddingRight: '1rem' }}>
-                <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>Garşydaşyň ejizligini subut etmek üçin bäsleşige çagyrmaklyk.</p>
+                <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>Meýdan okamaklyk</span> - Garşydaşyň ejizligini subut etmek üçin çagyrmak.</p>
               </div>
             )}
             {popup.id === 'hira-wadysy' && (

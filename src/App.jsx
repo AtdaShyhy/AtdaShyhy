@@ -690,7 +690,7 @@ export default function App() {
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Mekgede Kuran Oňa yzly-yzyna inip durdy. Jebraýyl perişde aleýhissalam Ony älemleriň Rebbinden getirip, Oňa diniň ähli jikme-jikliklerini öwredip durýardy.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Ol öz kowmuny Yslama çagyrmagyny dowam etdirdi. Emma kowmy Oňa garşy çykyp, Oňa duşmançylyk etdi. Olar Oňa bu dini goýmagy üçin baýlyk we hökümdarlyk (baştutanlyk) hödürlediler. Emma Ol bularyň hiç birini kabul etmedi.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Olar hem edil öňki geçen kowumlaryň öz resullaryna aýdyşy ýaly, Oňa: «jadygöý, ýalançy, töhmetçi» diýdiler. Oňa ezýet berdiler, Onuň mübärek bedenine el galdyrdylar we Onuň yzyna eýerenlere hem zulüm etdiler.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Pygamber –sallallahu aleýhi we sellem– Mekgede adamlary Allaha çagyrmagyny dowam etdirdi. Ol haj möwsümine we araplaryň belli bir wagtda bolýan bazarlaryna baryp, ol ýerdäki adamlar bilen duşuşardy we olara Yslamy düşündirerdi. Ol adamlary dünýä baýlygyna ýa-da baştutanlyga höweslendirmeýärdi, gylyç bilen hem gorkuzmaýardy. Çünki Ol soltan hem, patyşa hem däldi. Ol öz dagwatynyň başynda garşydaşlaryna: «Eger başarsaňyz, bu Beýik Kuranyň meňzeşini getiriň!» diýip meýdan okaýardy we muny hemişe dowam etdirýärdi. Şeýlelikde, mertebeli sahabalardan — Allah olaryň baryndan razy bolsun — iman getirenler iman getirdiler.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Pygamber –sallallahu aleýhi we sellem– Mekgede adamlary Allaha çagyrmagyny dowam etdirdi. Ol haj möwsümine we araplaryň belli bir wagtda bolýan bazarlaryna baryp, ol ýerdäki adamlar bilen duşuşardy we olara Yslamy düşündirerdi. Ol adamlary dünýä baýlygyna ýa-da baştutanlyga höweslendirmeýärdi, gylyç bilen hem gorkuzmaýardy. Çünki Ol soltan hem, patyşa hem däldi. Ol öz dagwatynyň başynda garşydaşlaryna: «Eger başarsaňyz, bu Beýik Kuranyň meňzeşini getiriň!» diýip meýdan okaýardy{' '}<button onClick={() => setPopup({ id: 'meydan-okamak' })} style={{ background: 'none', border: '1.5px solid #d4af7a', borderRadius: '6px', color: '#d4af7a', fontSize: '0.65rem', fontWeight: '700', cursor: 'pointer', padding: '2px 5px', lineHeight: 1.2, verticalAlign: 'middle' }}>aç</button>{' '}we muny hemişe dowam etdirýärdi. Şeýlelikde, mertebeli sahabalardan — Allah olaryň baryndan razy bolsun — iman getirenler iman getirdiler.</p>
         </div>
 
       </div>
@@ -2165,6 +2165,11 @@ export default function App() {
             {popup.id === 'halyl-manys' && (
               <div style={{ paddingRight: '1rem' }}>
                 <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>Halyl</span> — Allahyň iň söýgüli guly diýmekdir.</p>
+              </div>
+            )}
+            {popup.id === 'meydan-okamak' && (
+              <div style={{ paddingRight: '1rem' }}>
+                <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>Garşydaşyň ejizligini subut etmek üçin bäsleşige çagyrmaklyk.</p>
               </div>
             )}
             {popup.id === 'hira-wadysy' && (

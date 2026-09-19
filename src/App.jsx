@@ -623,6 +623,11 @@ export default function App() {
           <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Ikinji bölüm</p>
           <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
         </div>
+        <div onClick={() => navigateTo('kitab-pygamber-3')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '0.9rem 1.1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.9rem' }}>
+          <div style={{ minWidth: '28px', height: '28px', background: 'linear-gradient(135deg, #8b5a2b 0%, #5e3a1a 100%)', color: '#f4e4c1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem', fontWeight: '700', flexShrink: 0 }}>3</div>
+          <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Üçünji bölüm</p>
+          <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
+        </div>
       </div>
     </div>
   );
@@ -658,6 +663,15 @@ export default function App() {
           <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>2- Mübärek zenan bilen mübärek nika</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Ol ýigrimi bäş ýaşyndaka, Mekgäniň asylly zenanlaryndan biri bolan Hatyja bint Huweýlide — Allah ondan razy bolsun — öýlendi. Ondan Oňa dört gyz we iki ogul perzent berildi. Emma iki ogly çagalyk döwründe aradan çykdy. Ol aýalyna we maşgalasyna örän mylaýym hem-de mähirli garaýardy. Şol sebäpli aýaly Hatyja Ony örän güýçli söýdi we Ol hem oňa edil şonuň ýaly söýgi bilen jogap berdi. Hatda ol aradan çykanyndan soň ençeme ýyllar geçse-de, Ony hiç wagt ýatdan çykarmady. Ol goýun soýup, Hatyjanyň — Allah ondan razy bolsun — joralaryna hormat goýmak, oňa (Hatyja) ýagşylyk etmek we aralaryndaky söýgini saklamak üçin paýlaýardy.</p>
         </div>
+
+      </div>
+    </div>
+  );
+
+
+  const PygamberBolum3Level = () => (
+    <div className="level-container">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
 
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
           <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>3- Wahyň (Allahdan gelýän habaryň) başlamagy</p>
@@ -1790,6 +1804,7 @@ export default function App() {
       {currentLevel === 'kitab-pygamber' && <PygamberLevel />}
       {currentLevel === 'kitab-pygamber-1' && <PygamberBolum1Level />}
       {currentLevel === 'kitab-pygamber-2' && <PygamberBolum2Level />}
+      {currentLevel === 'kitab-pygamber-3' && <PygamberBolum3Level />}
 
       {popup && (
         <div onClick={() => setPopup(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)', zIndex: 2000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>

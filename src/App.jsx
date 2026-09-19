@@ -604,7 +604,7 @@ export default function App() {
         </div>
         <div onClick={() => navigateTo('kitab-pygamber')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1.1rem', cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '130px', textAlign: 'center', gap: '0.5rem' }}>
           <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '400', margin: 0, fontFamily: 'Amiri, serif', lineHeight: '1.6', textAlign: 'center' }}>نبذة موجزة عن رسول الإسلام محمد صلى الله عليه وسلم</p>
-          <p style={{ color: '#c9b991', fontSize: '0.85rem', margin: 0, lineHeight: '1.4', textAlign: 'center' }}>Pygamberimiz Muhammed ﷺ barada gysgaça ömrübeýany</p>
+          <p style={{ color: '#c9b991', fontSize: '0.85rem', margin: 0, lineHeight: '1.4', textAlign: 'center' }}>Pygamberimiz Muhammediň ﷺ gysgaça ömrübeýany</p>
         </div>
       </div>
     </div>

@@ -725,7 +725,7 @@ export default function App() {
     <div className="level-container">
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
-          <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>4- Onuň dini</p>
+          <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>4- <span style={{ fontFamily: 'Amiri, serif' }}>رسالته</span> — Onuň dini</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Allah Tagala şirkiň, kapyrlygyň we nadanlygyň bütin ýer ýüzüni gurşap alan döwründe Muhammedi –sallallahu aleýhi we sellem– iberdi. Şol wagt ýer ýüzünde Allaha hiç bir zady şärik goşman ybadat edýän, Kitap ehlinden galan sanlyja adamlardan başga hiç kim ýokdy. Şonuň üçin Allah Öz resuly Muhammedi –sallallahu aleýhi we sellem– pygamberleriň we resullaryň iň soňkysy edip iberdi. Allah Ony bütin älemlere dogry ýol we hak din bilen ugratdy; bu bolsa hak dini ähli dinlerden üstün etmek hem-de adamlary butparazlygyň, kapyrlygyň we nadanlygyň garaňkylyklaryndan töwhidiň we imanyň nuruna çykarmak üçindir. Onuň dini bolsa öňki geçen pygamberleriň — olara salat we salam bolsun — getiren dinlerini kämilleşdirijidir we tamamlaýjydyr.</p>
         </div>
 

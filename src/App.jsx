@@ -752,18 +752,36 @@ export default function App() {
         <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
           <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>5- Onuň pygamberliginiň gudratlary, alamatlary we delilleri</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allah Tagala pygamberleri olaryň pygamberligini subut edýän gudratlar bilen goldaýar hem-de olaryň hak dinine şaýatlyk edýän aýdyň delilleri we subutnamalary berýär. Hakykatdan-da, Allah her bir pygambere adamlaryň iman getirmegine ýeterlik gudratlary berendir. Pygamberlere berlen gudratlaryň iň beýigi bolsa Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— gudratlarydyr. Ol hem Allahyň Oňa beren Mukaddes Kuranydyr we bu Kuran — pygamberleriň gudratlarynyň içinden tä Kyýamat gününe çenli baky galjak ýeke-täk gudratdyr. Şeýle hem Allah Ony başga-da beýik gudratlar bilen goldady. Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— görkezen gudratlary örän köpdür, olardan käbiri şulardyr:</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Isra we Migraj wakasy, Aýyň ikä bölünmegi, her gezek gurakçylyk bolup adamlara suw bermegini diläp Allaha doga edende ýagşyň ýagmagy, şeýle hem azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Oňa habar bermegi arkaly, hiç kimiň jikme-jik bilmeýän geçmişdäki gaýyp zatlaryny: pygamberleriň — olara Allahyň salamy bolsun — öz kowumlary bilen başdan geçiren wakalaryny we Gowak eýeleri baradaky wakany habar bermegi.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Päk bolan Allahyň Oňa habar bermegi bilen, hut aýdyşy ýaly bolup geçen geljekdäki gaýyp wakalary: Hijaz tarapyndan çykyp, Şamda ýaşaýanlaryň gören uly ody baradaky habary we adamlaryň beýik binalary salmakda bäsleşjekdigini habar bermegidir.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Oňa ýeterlik bolmagy we Ony adamlaryň erbetliginden gorap saklamagy.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Onuň öz sahabalaryna beren wadalarynyň amala aşmagydyr. Mysal üçin, olara aýdan şu sözi ýaly:</p>
-          <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '7px', padding: '0.5rem 0.8rem', marginBottom: '0.6rem' }}>
-            <p style={{ color: '#c9b991', fontSize: '0.93rem', lineHeight: '1.7', margin: 0, fontStyle: 'italic' }}>«Pars we Rimi siz hökman ýeňersiňiz we olaryň hazynalary bolsa hökman Allahyň ýolunda sarp ediler».</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', margin: '0 0 0.6rem' }}>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>1.</span> Isra we Migraj wakasy, Aýyň ikä bölünmegi, her gezek gurakçylyk bolup adamlara suw bermegini diläp Allaha doga edende ýagşyň ýagmagy, şeýle hem azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>2.</span> Azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>3.</span> Allahyň Oňa habar bermegi arkaly, hiç kimiň jikme-jik bilmeýän geçmişdäki gaýyp zatlaryny: pygamberleriň — olara Allahyň salamy bolsun — öz kowumlary bilen başdan geçiren wakalaryny we Gowak eýeleri baradaky wakany habar bermegi.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>4.</span> Päk bolan Allahyň Oňa habar bermegi bilen, hut aýdyşy ýaly bolup geçen geljekdäki gaýyp wakalary: Hijaz tarapyndan çykyp, Şamda ýaşaýanlaryň gören uly ody baradaky habary we adamlaryň beýik binalary salmakda bäsleşjekdigini habar bermegidir.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>5.</span> Allahyň Oňa ýeterlik bolmagy we Ony adamlaryň erbetliginden gorap saklamagy.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: '0 0 0.4rem', textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>6.</span> Onuň öz sahabalaryna beren wadalarynyň amala aşmagydyr. Mysal üçin, olara aýdan şu sözi ýaly:</p>
+              <p style={{ color: '#c9b991', fontSize: '0.9rem', lineHeight: '1.6', margin: 0, fontStyle: 'italic' }}>«Pars we Rimi siz hökman ýeňersiňiz we olaryň hazynalary bolsa hökman Allahyň ýolunda sarp ediler».</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>7.</span> Allahyň Ony perişdeler bilen goldamagydyr.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>8.</span> Pygamberleriň — olara salat we salam bolsun — öz kowumlaryna Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— geljekdigini buşlamagydyr. Onuň gelmegini buşlanlar: Musa, Dawut, Süleýman, Isa — olara salam bolsun — we Ysraýyl ogullarynyň beýleki pygamberleridir.</p>
+            </div>
+            <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '0.5rem 0.6rem' }}>
+              <p style={{ color: '#c9b991', fontSize: '0.92rem', lineHeight: '1.6', margin: 0, textAlign: 'left' }}><span style={{ color: '#d4af7a', fontWeight: '700' }}>9.</span> Sagdyn akyllaryň gürrüňsiz kabul edýän akly delilleri hem-de getirilen aýdyň mysallarydyr[3].</p>
+            </div>
           </div>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Ony perişdeler bilen goldamagydyr.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberleriň — olara salat we salam bolsun — öz kowumlaryna Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— geljekdigini buşlamagydyr. Onuň gelmegini buşlanlar: Musa, Dawut, Süleýman, Isa — olara salam bolsun — we Ysraýyl ogullarynyň beýleki pygamberleridir.</p>
-          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Sagdyn akyllaryň gürrüňsiz kabul edýän akly delilleri hem-de getirilen aýdyň mysallarydyr[3].</p>
           <div style={{ background: 'rgba(0,0,0,0.18)', border: '1px solid rgba(212, 175, 122, 0.2)', borderLeft: '3px solid #d4af7a', borderRadius: '8px', padding: '0.6rem 0.8rem', margin: '0 0 0.6rem' }}>
             <p style={{ color: '#c9b991', fontSize: '0.9rem', lineHeight: '1.65', margin: '0 0 0.2rem' }}>[3] Allah Tagalanyň şu aýatynda aýdyşy ýaly: "Eý, adamlar! Bir mysal getirildi, indi şony diňläň! Şübhesiz, siziň Allahdan başga dileg-doga edýän zatlaryňyz bary jemleşip birleşseler-de, bir siňegi hem ýaradyp bilmezler! Hatda siňek olardan bir zady alyp gitse, ony ondan yzyna alyp bilmezler. Talap ediji hem ejizdir, talap edilýän hem!"</p>
             <p style={{ color: '#d4af7a', fontSize: '0.78rem', fontWeight: '600', margin: 0 }}>[Haj: 73]</p>

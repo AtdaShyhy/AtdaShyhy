@@ -633,6 +633,11 @@ export default function App() {
           <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Dördünji bölüm</p>
           <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
         </div>
+        <div onClick={() => navigateTo('kitab-pygamber-5')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '0.9rem 1.1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.9rem' }}>
+          <div style={{ minWidth: '28px', height: '28px', background: 'linear-gradient(135deg, #8b5a2b 0%, #5e3a1a 100%)', color: '#f4e4c1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem', fontWeight: '700', flexShrink: 0 }}>5</div>
+          <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Bäşinji bölüm</p>
+          <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
+        </div>
       </div>
     </div>
   );
@@ -734,6 +739,39 @@ export default function App() {
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberimiz Muhammed –sallallahu aleýhi we sellem– getiren dininde öz taýpasyny, doglan şäherini ýa-da öz mertebeli şahsyýetini beýgeltmedi. Gaýtam, Mukaddes Kuranda Nuh, Ybrahym, Musa we Isa — olara salam bolsun — pygamberleriň atlary Onuň öz adyndan hem has köp ýatlanandyr. Şeýle hem Mukaddes Kuranda Onuň ejesiniň ady we aýallarynyň atlary ýatlanan däldir. Emma Kuranda Musanyň ejesi birnäçe gezek, Merýem — oňa salam bolsun — bolsa otuz bäş gezek ýatlanandyr.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberimiz Muhammed –sallallahu aleýhi we sellem– şerigata, sagdyn akla we fitrata (ynsan tebigatyna) ters gelýän ýa-da sagdyn ahlak tarapyndan kabul edilmeýän her bir zatdan (Allah tarapyndan) goralandyr. Çünki pygamberler — olara salam bolsun — Allahdan ýetirýän zatlarynda ýalňyşlykdan goralandyrlar we olar Allahyň buýruklaryny gullara ýetirmek borjy ýüklenen ilçilerdir. Pygamberlerde Reblik ýa-da Hudaýlyk aýratynlyklaryndan hiç bir zat ýokdur; gaýtam, olar hem beýleki adamlar ýaly ynsandyr, Allah Tagala olara Öz dinini wahyý edendir.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Pygamberimiz Muhammediň –sallallahu aleýhi we sellem– getiren dininiň Allahdan inen wahyýdygynyň iň uly subutnamalaryndan biri — bu diniň şu güne çenli hut Onuň diri wagtyndaky ýaly saklanyp galmagydyr. Şeýle hem oňa bir milliarddan gowrak musulman eýerýär we olar namaz, zekat, roza, haj ýaly şerigat parzlaryny hiç hili üýtgetmesiz hem-de ýoýulmasyz berjaý edýärler.</p>
+        </div>
+
+      </div>
+    </div>
+  );
+
+  const PygamberBolum5Level = () => (
+    <div className="level-container">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
+
+        <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
+          <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>5- Onuň pygamberliginiň gudratlary, alamatlary we delilleri</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allah Tagala pygamberleri olaryň pygamberligini subut edýän gudratlar bilen goldaýar hem-de olaryň hak dinine şaýatlyk edýän aýdyň delilleri we subutnamalary berýär. Hakykatdan-da, Allah her bir pygambere adamlaryň iman getirmegine ýeterlik gudratlary berendir. Pygamberlere berlen gudratlaryň iň beýigi bolsa Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— gudratlarydyr. Ol hem Allahyň Oňa beren Mukaddes Kuranydyr we bu Kuran — pygamberleriň gudratlarynyň içinden tä Kyýamat gününe çenli baky galjak ýeke-täk gudratdyr. Şeýle hem Allah Ony başga-da beýik gudratlar bilen goldady. Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— görkezen gudratlary örän köpdür, olardan käbiri şulardyr:</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Isra we Migraj wakasy, Aýyň ikä bölünmegi, her gezek gurakçylyk bolup adamlara suw bermegini diläp Allaha doga edende ýagşyň ýagmagy, şeýle hem azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Azajyk naharyň we suwuň bereketlenip (köpelip), ondan örän köp adamyň iýip-içmegi.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Oňa habar bermegi arkaly, hiç kimiň jikme-jik bilmeýän geçmişdäki gaýyp zatlaryny: pygamberleriň — olara Allahyň salamy bolsun — öz kowumlary bilen başdan geçiren wakalaryny we Gowak eýeleri baradaky wakany habar bermegi.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Päk bolan Allahyň Oňa habar bermegi bilen, hut aýdyşy ýaly bolup geçen geljekdäki gaýyp wakalary: Hijaz tarapyndan çykyp, Şamda ýaşaýanlaryň gören uly ody baradaky habary we adamlaryň beýik binalary salmakda bäsleşjekdigini habar bermegidir.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Oňa ýeterlik bolmagy we Ony adamlaryň erbetliginden gorap saklamagy.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Onuň öz sahabalaryna beren wadalarynyň amala aşmagydyr. Mysal üçin, olara aýdan şu sözi ýaly:</p>
+          <div style={{ background: 'rgba(0,0,0,0.15)', borderRadius: '7px', padding: '0.5rem 0.8rem', marginBottom: '0.6rem' }}>
+            <p style={{ color: '#c9b991', fontSize: '0.93rem', lineHeight: '1.7', margin: 0, fontStyle: 'italic' }}>«Pars we Rimi siz hökman ýeňersiňiz we olaryň hazynalary bolsa hökman Allahyň ýolunda sarp ediler».</p>
+          </div>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Allahyň Ony perişdeler bilen goldamagydyr.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberleriň — olara salat we salam bolsun — öz kowumlaryna Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— geljekdigini buşlamagydyr. Onuň gelmegini buşlanlar: Musa, Dawut, Süleýman, Isa — olara salam bolsun — we Ysraýyl ogullarynyň beýleki pygamberleridir.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Sagdyn akyllaryň gürrüňsiz kabul edýän akly delilleri hem-de getirilen aýdyň mysallarydyr[3].</p>
+          <div style={{ background: 'rgba(0,0,0,0.18)', border: '1px solid rgba(212, 175, 122, 0.2)', borderLeft: '3px solid #d4af7a', borderRadius: '8px', padding: '0.6rem 0.8rem', margin: '0 0 0.6rem' }}>
+            <p style={{ color: '#c9b991', fontSize: '0.9rem', lineHeight: '1.65', margin: '0 0 0.2rem' }}>[3] Allah Tagalanyň şu aýatynda aýdyşy ýaly: "Eý, adamlar! Bir mysal getirildi, indi şony diňläň! Şübhesiz, siziň Allahdan başga dileg-doga edýän zatlaryňyz bary jemleşip birleşseler-de, bir siňegi hem ýaradyp bilmezler! Hatda siňek olardan bir zady alyp gitse, ony ondan yzyna alyp bilmezler. Talap ediji hem ejizdir, talap edilýän hem!"</p>
+            <p style={{ color: '#d4af7a', fontSize: '0.78rem', fontWeight: '600', margin: 0 }}>[Haj: 73]</p>
+          </div>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bu gudratlar, deliller we akla laýyk mysallar Mukaddes Kuranda we pygamberiň sünnetinde giňden beýan edilendir. Onuň görkezen gudratlary sanardan has köpdür. Kim olary çuňňur öwrenmek islese, Mukaddes Kurana, hadys we Pygamberiň ömürbeýany kitaplaryna seretsin; sebäbi bu gudratlar hakyndaky şübhesiz we anyk habarlar hut şol kitaplardadyr.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Eger-de bu beýik gudratlar bolup geçmedik bolsa, onda Onuň garşydaşlary bolan Kureýş kapyrlary, şeýle hem Arap ýarymadasyndaky ýahudylar we hristianlar Ony ýalançy çykarmak we adamlary Ondan daşlaşdyrmak üçin uly pursat tapardylar.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Mukaddes Kuran — Allahyň Öz resuly Muhammede —sallallahu aleýhi we sellem— inderen Kitabydyr we ol älemleriň Rebbiniň sözüdir. Allah adamlara we jynlara onuň meňzeşini ýa-da oňa meňzeş bir süresini getirmegi meýdan okady we bu çagyryş tä şu güne çenli dowam edip gelýär. Kuran millionlarça adamy başagaý eden örän möhüm sowallaryň köpüsine jogap berýär. Bu Beýik Kuran şu güne çenli hut inen arap dilinde goralyp saklandy; ondan ýekeje harp hem kemelmedi, ol çap edilip giňden ýaýradylandyr. Ol beýik gudrat bolup, adamlara iberilen iň beýik Kitapdyr; ony okamaga ýa-da manylarynyň terjimesi bilen tanyşmaga doly mynasypdyr. Kim ony öwrenmese we oňa iman getirmese, ol ähli haýyrdan mahrum galandyr.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Edil şonuň ýaly, Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— sünneti, ýörelgesi we ömürbeýany ygtybarly rowaýatçylar arkaly goralyp saklandy we bize ýetirildi. Ol maglumatlar Pygamberimiziň —sallallahu aleýhi we sellem— gürlän asyl arap dilinde çap edilip, edil Ol häzir hem aramyzda ýaşaýan ýaly beýan edilendir hem-de köp dillere terjime edilendir. Mukaddes Kuran bilen Pygamberiň —sallallahu aleýhi we sellem— sünneti Yslamyň ähli hökümleriniň we şerigat kanunlarynyň ýeke-täk çeşmesidir.</p>
         </div>
 
       </div>
@@ -1852,6 +1890,7 @@ export default function App() {
       {currentLevel === 'kitab-pygamber-2' && <PygamberBolum2Level />}
       {currentLevel === 'kitab-pygamber-3' && <PygamberBolum3Level />}
       {currentLevel === 'kitab-pygamber-4' && <PygamberBolum4Level />}
+      {currentLevel === 'kitab-pygamber-5' && <PygamberBolum5Level />}
 
       {popup && (
         <div onClick={() => setPopup(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)', zIndex: 2000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>

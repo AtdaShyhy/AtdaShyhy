@@ -638,6 +638,11 @@ export default function App() {
           <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Bäşinji bölüm</p>
           <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
         </div>
+        <div onClick={() => navigateTo('kitab-pygamber-6')} style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '0.9rem 1.1rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.9rem' }}>
+          <div style={{ minWidth: '28px', height: '28px', background: 'linear-gradient(135deg, #8b5a2b 0%, #5e3a1a 100%)', color: '#f4e4c1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.9rem', fontWeight: '700', flexShrink: 0 }}>6</div>
+          <p style={{ color: '#f4e4c1', fontSize: '1rem', fontWeight: '600', margin: 0 }}>Altynjy bölüm</p>
+          <span style={{ color: '#d4af7a', fontSize: '1.2rem', marginLeft: 'auto' }}>›</span>
+        </div>
       </div>
     </div>
   );
@@ -790,6 +795,23 @@ export default function App() {
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Eger-de bu beýik gudratlar bolup geçmedik bolsa, onda Onuň garşydaşlary bolan Kureýş kapyrlary, şeýle hem Arap ýarymadasyndaky ýahudylar we hristianlar Ony ýalançy çykarmak we adamlary Ondan daşlaşdyrmak üçin uly pursat tapardylar.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Mukaddes Kuran — Allahyň Öz resuly Muhammede —sallallahu aleýhi we sellem— inderen Kitabydyr we ol älemleriň Rebbiniň sözüdir. Allah adamlara we jynlara onuň meňzeşini ýa-da oňa meňzeş bir süresini getirmegi meýdan okady we bu çagyryş tä şu güne çenli dowam edip gelýär. Kuran millionlarça adamy başagaý eden örän möhüm sowallaryň köpüsine jogap berýär. Bu Beýik Kuran şu güne çenli hut inen arap dilinde goralyp saklandy; ondan ýekeje harp hem kemelmedi, ol çap edilip giňden ýaýradylandyr. Ol beýik gudrat bolup, adamlara iberilen iň beýik Kitapdyr; ony okamaga ýa-da manylarynyň terjimesi bilen tanyşmaga doly mynasypdyr. Kim ony öwrenmese we oňa iman getirmese, ol ähli haýyrdan mahrum galandyr.</p>
           <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Edil şonuň ýaly, Pygamberimiz Muhammediň —sallallahu aleýhi we sellem— sünneti, ýörelgesi we ömürbeýany ygtybarly rowaýatçylar arkaly goralyp saklandy we bize ýetirildi. Ol maglumatlar Pygamberimiziň —sallallahu aleýhi we sellem— gürlän asyl arap dilinde çap edilip, edil Ol häzir hem aramyzda ýaşaýan ýaly beýan edilendir hem-de köp dillere terjime edilendir. Mukaddes Kuran bilen Pygamberiň —sallallahu aleýhi we sellem— sünneti Yslamyň ähli hökümleriniň we şerigat kanunlarynyň ýeke-täk çeşmesidir.</p>
+        </div>
+
+      </div>
+    </div>
+  );
+
+  const PygamberBolum6Level = () => (
+    <div className="level-container">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.7rem' }}>
+
+        <div style={{ background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(76, 49, 23, 0.15) 100%)', border: '2px solid rgba(212, 175, 122, 0.3)', borderRadius: '14px', padding: '1rem 1.1rem' }}>
+          <p style={{ color: '#d4af7a', fontSize: '1rem', fontWeight: '700', margin: '0 0 0.6rem' }}>6- Pygamberimiz Muhammediň — sallallahu aleýhi we sellem — getiren şerigaty.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberimiz Muhammediň –sallallahu aleýhi we sellem– getiren şerigaty — Yslam şerigatydyr. Ol Allah tarapyndan iberilen şerigatlaryň we dinleriň iň soňkusydyr. Bu şerigat käbir amallaryň ýerine ýetiriliş usullarynda tapawutly bolsa-da, öz esasy ýörelgelerinde öňki geçen pygamberleriň şerigatlary bilen meňzeşdir.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bu şerigat — kämil şerigatdyr, ol her bir döwre hem-de ýere laýykdyr; onda adamlaryň dininiň we dünýäsiniň abadançylygy bardyr. Ol älemleriň Rebbi bolan Allaha gullaryň etmeli namaz we zekat ýaly ähli wajyp ybadatlaryny öz içine alýar. Şeýle hem adamlara rugsat berlen we gadagan edilen maliýe, ykdysady, jemgyýetçilik, syýasy, harby we daşky gurşawa degişli gatnaşyklary, şeýle-de olaryň dünýä durmuşy hem-de ahyreti üçin zerur bolan beýleki ähli meseleleri aýdyň düşündirýär.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Bu şerigat adamlaryň dinini, janyny, ar-namysyny, malyny, akylyny we nesil dowamatyny goraýandyr. Ol ähli asylly gymmatlyklary we ýagşylyklary özünde jemläp, ähli pesliklerden we ýamanlyklardan duýdurýandyr. Şeýle-de ol adama hormat goýmaga, orta ýola, adalatlylyga, yhlasa (Allah üçin etmeklige), tämizlige, işi kämil ýerine ýetirmäge, söýgä, hemmelere ýagşylyk islemäge, gan döküşligiň öňüni almaga, ýurduň howpsuzlygyna hem-de adamlary nähak gorkuzmagyň haramdygyna çagyrýar. Pygamberimiz Muhammed –sallallahu aleýhi we sellem– bolsa zulumyň we bozgaklygyň ähli görnüşine berk garşy durup, toslamalary (yrymlary), adamlardan daşlaşmagy we rahbanylygy (dünýäden bütinleý el çekmegi) ýazgarandyr.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0.6rem' }}>Pygamberimiz Muhammed –sallallahu aleýhi we sellem– Allahyň erkegi-de, aýaly-da hormatlandygyny we olaryň ähli hukuklaryny kepillendirendigini (gorandygyny) aýdyň düşündirdi. Şeýle hem adamy ähli saýlawlary, amallary we hereketleri üçin jogapkär edendigini, özüne ýa-da başgalara zyýan berýän her bir işi üçin jogap berjekdigini aýtdy. Erkek bilen aýaly bolsa iman getirmekde, jogapkärçilikde, jezada we sogapda deň edendir. Bu şerigatda aýal maşgala — ene, aýal, gyz we uýa hökmünde aýratyn uly üns we hormat berilendir.</p>
+          <p style={{ color: '#c9b991', fontSize: '0.95rem', lineHeight: '1.7', margin: '0 0 0' }}>Pygamberimiz Muhammediň –sallallahu aleýhi we sellem– getiren şerigaty akyly goraýandyr hem-de arak-şerap içmek ýaly oňa zyýan berýän her bir zady haram edýändir. Çünki Yslam dini — akylyň ýoluny ýagtyldýan nurdur; bu bolsa adamyň öz Rebbine ylym we çuňňur düşünje bilen ybadat etmegi üçindir. Şeýle hem Yslam şerigaty akylyň mertebesini belent tutdy, ony jogapkärçiligiň esasy şerti etdi hem-de ony toslamalardan (yrymlardan) we köphudaýlylykdan azat etdi.</p>
         </div>
 
       </div>
@@ -1909,6 +1931,7 @@ export default function App() {
       {currentLevel === 'kitab-pygamber-3' && <PygamberBolum3Level />}
       {currentLevel === 'kitab-pygamber-4' && <PygamberBolum4Level />}
       {currentLevel === 'kitab-pygamber-5' && <PygamberBolum5Level />}
+      {currentLevel === 'kitab-pygamber-6' && <PygamberBolum6Level />}
 
       {popup && (
         <div onClick={() => setPopup(null)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)', zIndex: 2000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
